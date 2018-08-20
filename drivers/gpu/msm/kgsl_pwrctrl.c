@@ -1748,10 +1748,6 @@ static void kgsl_pwrctrl_irq(struct kgsl_device *device, int state)
 	} else if (state == KGSL_PWRFLAGS_OFF) {
 		if (test_and_clear_bit(KGSL_PWRFLAGS_IRQ_ON,
 			&pwr->power_flags)) {
-			if (in_interrupt())
-				disable_irq_nosync(pwr->interrupt_num);
-			else
-				disable_irq(pwr->interrupt_num);
 		}
 	}
 }
