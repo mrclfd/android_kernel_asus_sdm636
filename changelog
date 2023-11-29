@@ -1,13 +1,12 @@
-<b><#selectbg_g>Oct 25,2023</#></b>
+<b><#selectbg_g>Nov 29,2023</#></b>
 
-  <*> KernelSU update to v0.7.0</*>
-  <*> SQUASH: avoid VLA</*>
-  <*> silence some more debug and logging</*>
-  <*> drop pagecaches on screen-off</*>
-  <*> Import optimized strrchr from newlib</*>
-  <*> msm_thermal: Decrease temp_threshold</*>
+  <*> KernelSU update v0.7.1</*>
+  <*> iommu: Introduce Interface for IOMMU TLB Flushing</*>
   <*> sdm660-gpu: enable unmap fast support</*>
-  <*> Reduce display commit latency caused by deep CPU idle</*>
+  <*> msm: kgsl: Relax CPU latency requirements to save power</*>
+  <*> Drop LPM parameters</*>
+  <*> gpio: Remove validation while gpio probing</*>
+  <*> sdm660: Don't Run rcu_nocbs on Big Cluster</*>
   <*> More Changes, and Improvements</*>
 
 
@@ -15,7 +14,7 @@
 <b><#selectbg_g>NOTES :</#></b>
 
   <*> KernelSU is enabled by default and will disabled automatically if Magisk has been installed</*>
-  <*> Recommended to use KernelSU Manager v0.7.0</*>
+  <*> Recommended to use KernelSU Manager v0.7.1</*>
   <*> If u don't want KernelSU, just disable it</*>
   <*> Kernel need sometimes to settle.</*>
 
