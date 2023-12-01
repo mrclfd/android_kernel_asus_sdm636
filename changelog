@@ -1,13 +1,6 @@
-<b><#selectbg_g>Nov 29,2023</#></b>
+<b><#selectbg_g>Dec 1,2023</#></b>
 
-  <*> KernelSU update v0.7.1</*>
-  <*> iommu: Introduce Interface for IOMMU TLB Flushing</*>
-  <*> sdm660-gpu: enable unmap fast support</*>
-  <*> msm: kgsl: Relax CPU latency requirements to save power</*>
-  <*> msm: Disable DCVS</*>
-  <*> gpio: Remove validation while gpio probing</*>
-  <*> gpu: msm: Remove more tracing</*>
-  <*> More Changes, and Improvements</*>
+  <*> sdm660: Set gpu max freq to 465 MHz for better gaming experience</*>
 
 
 
