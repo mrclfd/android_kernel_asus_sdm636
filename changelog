@@ -1,6 +1,9 @@
-<b><#selectbg_g>Dec 1,2023</#></b>
+<b><#selectbg_g>Dec 2, 2023</#></b>
 
-  <*> sdm660: Set gpu max freq to 465 MHz for better gaming experience</*>
+  <*> ARM: dts: sdm660: Set GPU idle timeout to 64 ms</*>
+  <*> msm: ipa3: Fix to memory allocation failure</*>
+  <*> sdm660: fix node values for qcom,msm-core@780000</*>
+  <*> kgsl/adreno: Properly set GPU timeout</*>
 
 
 
