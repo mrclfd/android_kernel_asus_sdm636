@@ -1,9 +1,12 @@
-<b><#selectbg_g>Dec 2, 2023</#></b>
+<b><#selectbg_g>Dec 3, 2023</#></b>
 
-  <*> ARM: dts: sdm660: Set GPU idle timeout to 64 ms</*>
-  <*> msm: ipa3: Fix to memory allocation failure</*>
-  <*> sdm660: fix node values for qcom,msm-core@780000</*>
-  <*> kgsl/adreno: Properly set GPU timeout</*>
+  <*> Improvise the swappiness ratio for multi application devices.</*>
+  <*> Fix for better deep sleep</*>
+  <*> Fix missing new lines after watchdog bite</*>
+  <*> Introduce Queue delayed work on power efficient wq</*>
+  <*> Fix wrong ENOENT when creating a file</*>
+  <*> Fix to set dio_inode precisely</*>
+
 
 
 
