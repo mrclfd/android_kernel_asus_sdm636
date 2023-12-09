@@ -1,12 +1,6 @@
-<b><#selectbg_g>Dec 3, 2023</#></b>
+<b><#selectbg_g>Changelogs:</#></b>
 
-  <*> Improvise the swappiness ratio for multi application devices.</*>
-  <*> Fix for better deep sleep</*>
-  <*> Fix missing new lines after watchdog bite</*>
-  <*> Introduce Queue delayed work on power efficient wq</*>
-  <*> Fix wrong ENOENT when creating a file</*>
-  <*> Fix to set dio_inode precisely</*>
-
+  <*> Look at https://s.id/aphrdt</*>
 
 
 
